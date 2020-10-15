@@ -14,3 +14,5 @@ If you're looking to give your Roam database a little personality and visual hie
 2. Create a `[[Exploriter]]` title block.
 3. Indented under the title, add a **Code Block** using the `/` menu and set the syntax to `css`.
 4. Open up one of the theme folders above and copy the CSS into your code block.
+
+![](https://github.com/exploriter/roam-themes/blob/master/assets/roam-custom-css.png)
