@@ -1,6 +1,6 @@
 # Roam Themes
 
-- [Exploriter Theme](https://github.com/exploriter/roam-themes/tree/master/exploriter)
+- [Exploriter](https://github.com/exploriter/roam-themes/tree/master/exploriter)
 
 ## How to use
 
