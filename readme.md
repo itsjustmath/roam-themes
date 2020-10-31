@@ -11,4 +11,4 @@
 
 ![](https://github.com/exploriter/roam-themes/blob/master/assets/roam-custom-css.png)
 
-[Watch the installation video](https://www.loom.com/share/aed998bcd5d343efb174a766743d36fe)
+→ [Watch the installation video](https://www.loom.com/share/aed998bcd5d343efb174a766743d36fe)
