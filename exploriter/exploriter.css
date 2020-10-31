@@ -59,7 +59,7 @@ a:hover {
   transition: color 0.2s ease-in-out;
 }
 
-.roam-center {
+.roam-body-main {
   background: var(--color-white) !important;
   border: 1px solid var(--color-dark-1) !important;
   border-radius: 6px;
