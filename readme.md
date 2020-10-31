@@ -10,3 +10,5 @@
 4. Open up one of the theme folders above and copy the CSS into your code block.
 
 ![](https://github.com/exploriter/roam-themes/blob/master/assets/roam-custom-css.png)
+
+[Watch the installation video](https://www.loom.com/share/aed998bcd5d343efb174a766743d36fe)
