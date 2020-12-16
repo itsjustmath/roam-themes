@@ -106,6 +106,7 @@ a:hover {
   display: none;
 }
 
+/* remove icons form sidebar */
 .roam-sidebar-container .roam-sidebar-content .top-row,
 .roam-sidebar-container .roam-sidebar-content .log-button,
 .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper {
