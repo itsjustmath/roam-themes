@@ -100,7 +100,9 @@ a:hover {
   font-size: 13.2px !important;
 }
 
-.roam-sidebar-container .roam-sidebar-content .log-button .icon {
+.roam-sidebar-container .roam-sidebar-content .log-button .icon,
+.roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .flex-h-box .bp3-icon-star,
+.roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .flex-h-box div {
   display: none;
 }
 
@@ -117,11 +119,6 @@ a:hover {
 .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .flex-h-box {
   margin-bottom: 2px !important;
 } 
-
-.roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .flex-h-box .bp3-icon-small,
-.roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .flex-h-box div {
-  display: none !important;
-}
 
 .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .flex-h-box span {
   font-weight: 600 !important;
