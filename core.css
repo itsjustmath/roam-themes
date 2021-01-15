@@ -177,6 +177,11 @@ a:hover {
     background-color: var(--highlight-color-block);
 }
 
+/* block move highlight */
+.block-highlight-grey {
+    background-color: var(--border-color-trans);
+}
+
 /* block revel highlight */
 .block-highlight-yellow {
     background-color: var(--highlight-color-block-bg);
@@ -477,7 +482,7 @@ a.rm-alias--page::after {
     content: ']';
 }
 
-/* add japanese reference mark */
+/* add Japanese reference mark */
 span.rm-block-ref::before {
     content: '※ ';
     font-family: Georgia, serif;
@@ -542,6 +547,34 @@ span.rm-block-ref:hover {
 .block-ref-count-button.rm-active {
     background-color: var(--border-color-light);
     color: var(--font-color);
+}
+
+.rm-paren {
+    margin: 0 !important;
+    padding: 0 3px;
+    background-color: var(--border-color-xxlight);
+    border: 1px solid var(--border-color-xlight);
+}
+
+.rm-paren--closed:hover,
+.rm-paren--open {
+    background-color: var(--border-color-xlight);
+    border-color: var(--border-color-light);
+}
+
+.rm-paren__paren {
+    color: var(--font-color);
+    opacity: 0.5;
+}
+
+.rm-paren__paren:hover {
+    background-color: initial;
+    color: var(--font-color);
+    opacity: 1;
+}
+
+.rm-paren svg path {
+    fill: var(--font-color);
 }
 
 /* adjust position do to font-size increase */
@@ -689,6 +722,12 @@ code {
 
 .bp3-datepicker-caption + .bp3-divider {
     border-color: var(--border-color-light);
+}
+
+.bp3-datepicker
+    .DayPicker-Day.DayPicker-Day--isToday
+    .bp3-datepicker-day-wrapper {
+    border-color: var(--border-color-med);
 }
 
 .rm-encrypted-block {
