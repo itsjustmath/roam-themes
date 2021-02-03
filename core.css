@@ -573,11 +573,6 @@ span.rm-block-ref:hover {
     fill: var(--font-color);
 }
 
-/* adjust position do to font-size increase */
-.check-container {
-    top: -8px;
-}
-
 /* completed todo color */
 .check-container input:checked ~ .checkmark {
     background-color: var(--link-color-hover);
@@ -1182,15 +1177,6 @@ div[data-page-links='["DONE","--choice"]']
 
 span.rm-page-ref[data-tag='--choice']:hover {
     text-decoration: none;
-}
-
-div[data-page-links='["TODO","--choice"]']
-    > .rm-block-main:first-child
-    label.check-container,
-div[data-page-links='["DONE","--choice"]']
-    > .rm-block-main:first-child
-    label.check-container {
-    top: -12px;
 }
 
 div[data-page-links='["Advantages"]'] .rm-attr-ref::before {
