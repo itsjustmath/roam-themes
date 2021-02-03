@@ -430,16 +430,12 @@ h1.rm-title-editing-display {
     background-color: var(--scope-bullet);
 }
 
-.block-border-left {
-    border-color: var(--border-color-xlight);
+.rm-multibar {
+  border-color: var(--border-color-xlight);
 }
 
-.rm-block-children:focus-within > .roam-block-container {
-    border-left-color: var(--border-color-med);
-}
-
-.roam-block-container {
-    border-radius: 0;
+.rm-block-children:focus-within > .rm-multibar {
+  border-color: var(--border-color-med);
 }
 
 .rm-page-ref--link {
