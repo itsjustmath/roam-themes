@@ -681,10 +681,11 @@ code {
 }
 
 /* search results highlight */
-.roam-topbar .rm-find-or-create-wrapper .rm-menu-item[style*='background'] {
-    background-color: var(--border-color-med) !important;
-    color: var(--font-color);
+.rm-topbar .rm-find-or-create-wrapper .rm-menu-item[style*="background-color"] {
+    background-color: var(--border-color-light) !important;
+    color: var(--text-color);
 }
+
 .rm-pomodoro {
     border-color: var(--border-color-med);
     background: var(--border-color-xlight) !important;
