@@ -1,11 +1,5 @@
-# Roam Themes
-
-### Quick and dirty installation
-
-Add this to your `[[roam/css]]` page in a CSS Code Block.
+Dependency for [Roam Writer](https://github.com/itsjustmath/roam-css/tree/main/roam-writer) theme.
 
 ```css
-@import url('https://exploriter.github.io/roam-themes/core.css');
+@import url('https://itsjustmath.github.io/roam-themes/core.css');
 ```
-
-**Note**: Only light/dark color scheme supported in the above method (based on your system settings). See the [public Exploriter Roam graph](https://roamresearch.com/#/app/exp-pub/page/2VZefaymQ) for a theme preview, modular installation instructions, and full color scheme support.
